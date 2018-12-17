@@ -22,7 +22,10 @@ function startGame(){
      document.winner=null;
      setMessage(name+" get's to start.")
     }
-    document.getElementById("score1").value=p;
+   }
+function score()
+{
+ document.getElementById("score1").value=p;
     document.getElementById("score2").value=q;
 }
 function setMessage(msg){
